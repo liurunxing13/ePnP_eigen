@@ -2,6 +2,7 @@
 
 
 ePnP算法的eigen实现
+
 不BB，三行代码即可调用：
 
 1：生成epnp类 PnP；
@@ -23,5 +24,7 @@ inter_matrix storage as fx,fy,u0,v0 Size 4*1
 
 R_est:double类型[3][3]数组，表示旋转
 t_est:double类型[3]向量，表示位移
+
+期望后续
 
 
