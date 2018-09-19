@@ -19,7 +19,7 @@ float err2 = PnP.compute_pose(R_est, t_est)；得到投影误差。
 n is point number	
 point_3d storage as XW1,YW1,ZW1,XW2,YW2,ZW2.....Size 3*n
 point_2d storage as u1, v1, u2, v2.....Size 2*n
-inter_matrix storage as fx,fy,u0,v0 Size 4*1
+inter_matrix storage as u0,v0，fx,fy Size 4*1
 
 R_est:double类型[3][3]数组，表示旋转
 t_est:double类型[3]向量，表示位移
